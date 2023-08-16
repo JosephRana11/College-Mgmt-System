@@ -1,5 +1,5 @@
 set up settings - template settings , app settings , bootstrap, djangocrispy forms , static , media - Complete
-create custom user that uses email for authentication
+create custom user that uses email for authentication 
 set up student model inheriting from custom user 
 set up professor model inheriting from custom user
 set up homepage
