@@ -1,0 +1,24 @@
+set up settings - template settings , app settings , bootstrap, djangocrispy forms , static , media - Complete
+create custom user that uses email for authentication
+set up student model inheriting from custom user 
+set up professor model inheriting from custom user
+set up homepage
+set up authentication form - login, logout reditect to homepage 
+set up registration form
+set up home page
+set up couse model and through model with enroll date(many to many with students)
+work on student and couse feature
+set up course enroll page
+set up instructor model (many to many with course)
+work on instructor feature
+work on front end
+work on page authorization
+Documentation
+
+apps:
+customuser
+usermodels
+authsys 
+course
+instructor
+page
