@@ -5,12 +5,12 @@ set up professor model inheriting from custom user
 set up homepage
 set up authentication form - login, logout reditect to homepage 
 set up registration form
-set up home page
+home page modifications
 set up couse model and through model with enroll date(many to many with students)
-work on student and couse feature
+work on student and cousre Model
 set up course enroll page
 set up instructor model (many to many with course)
-work on instructor feature
+work on instructor Feature and course Model
 work on front end
 work on page authorization
 Documentation
@@ -21,4 +21,10 @@ usermodels
 authsys 
 course
 instructor
-page
+pages
+
+
+
+Need to fix later on (Notes):
+
+1)Although 1 to 1 relationship is begin used the same email can be used to create a professor or student model.

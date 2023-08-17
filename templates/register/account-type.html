@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title%}
+Account Type
+{% endblock %}
+{% block content %}
+<h1>Select Account Type</h1>
+<br>
+<form action = "{% url 'student-registration'%}">{% csrf_token %}
+  <button>Student Account</button>
+</form>
+<br>
+<form action = "{% url 'professor-registration'%}">{% csrf_token %}
+  <button>Professor Account</button>
+</form>
+<br>
+<p>Have an account?<a href = {% url 'login' %}>Login</a>{% csrf_token%}</p>
+{% endblock %}

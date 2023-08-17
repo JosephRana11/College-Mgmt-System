@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+Login page
+{% endblock %}
+{% block content %}
+{% load crispy_forms_tags %}
+<br>
+<form method = 'POST'>{% csrf_token %}
+  <label for="email">EMAIL:
+    <input type="email" name="email1" required >
+  </label>
+  <label for="password">PASSWORD:
+    <input type="password" name="password1" required>
+  </label>
+  <button type="submit">Login</button>
+</form>
+<p>Dont have an account?<a href= {% url 'select-account-type' %}>Click here</a>{% csrf_token %}</p>
+{% endblock %}
